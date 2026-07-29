@@ -1,0 +1,6 @@
+libvmdk.lo: libvmdk.c ../common/common.h ../common/config.h \
+  ../common/config_winapi.h libvmdk_unused.h
+../common/common.h:
+../common/config.h:
+../common/config_winapi.h:
+libvmdk_unused.h:

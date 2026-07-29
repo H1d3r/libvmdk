@@ -1,0 +1,29 @@
+# Settings used in test_macros.at
+CYGPATH=""
+USE_MINGW="no"
+USE_WINAPI="no"
+WINEPATH=""
+
+export CYGPATH USE_MINGW USE_WINAPI WINEPATH
+
+# Settings used in test_manpages.at
+MAN="/usr/bin/man"
+MANDOC="/usr/bin/mandoc"
+MANPAGE_LINTER="mandoc"
+
+export MAN MANDOC MANPAGE_LINTER
+
+# Settings used in test_python_module.at
+LIBRARY_PATH="/Users/joker/Downloads/libvmdk-20260714/libvmdk/.libs"
+PYTHON=""
+PYTHON_MODULE_PATH="/Users/joker/Downloads/libvmdk-20260714/pyvmdk/.libs"
+
+export LIBRARY_PATH PYTHON PYTHONPATH
+
+# Settings used in test_tools.at
+GZIP_COMMAND="/usr/bin/gzip"
+MD5SUM="/sbin/md5sum"
+SED="/usr/bin/sed"
+ZCAT="/usr/bin/zcat"
+
+export GZIP_COMMAND MD5SUM SED ZCAT

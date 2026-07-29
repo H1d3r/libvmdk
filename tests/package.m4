@@ -1,0 +1,5 @@
+m4_define([AT_PACKAGE_NAME], [libvmdk])
+m4_define([AT_PACKAGE_TARNAME], [libvmdk])
+m4_define([AT_PACKAGE_VERSION], [20260714])
+m4_define([AT_PACKAGE_STRING], [libvmdk 20260714])
+m4_define([AT_PACKAGE_BUGREPORT], [https://github.com/libyal/libvmdk/issues])
